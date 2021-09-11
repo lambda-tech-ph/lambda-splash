@@ -35,6 +35,12 @@
             color: #93a1a1;
             margin-top: 0;
         }
+        h2::before {
+            display: inline-block;
+            content: '#';
+            margin-right: .6em;
+            color: #ccc;
+        }
         h3 {
             margin-top: 30px;
             font-size: 1em;
@@ -57,6 +63,7 @@
             position: absolute;
             top: 90px;
             right: 30px;
+            color: #93a1a1;
         }
         pre > h3 {
             display: inline;
@@ -67,12 +74,21 @@
         footer {
             flex-shrink: 0;
         }
+        footer p {
+            color: #93a1a1;
+        }
+        footer p::before {
+            display: inline-block;
+            content: '#';
+            margin-right: .6em;
+            color: #ccc;
+        }
     </style>
 </head>
 <body>
     <div>
         <h1>lambda: tech</h1>
-        <h2># creating functional technology</h2>
+        <h2>creating functional technology</h2>
 
         <h3>Development Services</h3>
         <ul>
